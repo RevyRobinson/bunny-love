@@ -1,0 +1,116 @@
+ /*dropdown*/
+@media only screen and (max-width: 768px) {
+  .nav ul     { display: none; }
+  .nav i {
+  	display: inline-block; 
+  	color: white;
+  }
+
+/*header*/
+
+.logo h1{
+  font-size: 20px;
+  font-family: Baloo Paaji;
+  float: left;
+}
+.nav {
+	margin-top: 10px;
+	float: right;
+}
+.dropdown-button {
+	display: inline-block;
+}
+.menu-desplegable {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.menu-desplegable a:active > ul {
+    display:inherit;
+}
+.menu-desplegable li {
+    min-width:170px;
+    display:list-item;
+    position: relative;
+}
+/*banner*/
+.container-mobile {
+	width: 95%;
+	background-repeat: no-repeat;
+}
+.opacity-box {
+ 	width: 90%;
+	background-color: #037F99;
+	height: 190px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	opacity: 0.8;
+ }
+  .banner-text {
+ 	position: absolute;
+ 	top: 10%;
+ 	left: 25%;
+ }
+  .banner-text h1 {
+	font-family: Baloo Paaji;
+ 	font-size: 30px;
+ 	color: #FF6A6D;
+ 	text-align: center;
+ }
+ .banner-text h3 {
+ 	color: white;
+ 	text-align: center;
+ 	font-family: Prompt;
+ 	font-style: italic;
+ 	font-weight: lighter;
+ 	margin-bottom: 50px;
+ }
+/*4 conejos*/
+.bunny-box-content p {
+	padding: 5%;
+	color: white;
+	height: 130px;
+}
+/*cajas que desaparecen*/
+.box-dissapear {
+	display: none;
+}
+/*arreglos cajas main*/
+.tile-content {
+	width: 95%;
+	background-color: #FEFFFF;
+	margin-top: -7%;
+	text-align: center;
+}
+.tile-content-video {
+	width: 95%;
+	background-color: #FEFFFF;
+	margin-top: -1%;
+	text-align: center;
+}
+.tile-content h2 {
+	color: #F48081;
+	font-family: Baloo Paaji;
+	margin-top: 20px;
+	font-size: 18px;
+}
+.date {
+	margin-bottom: 0px;
+}
+.tile-content p , .tile-content-video p  {
+	margin-top: 0px;
+	font-size: 15px;
+	padding: 5%;
+	padding-top: 10px;
+	text-align: justify;
+}
+.video-frame {
+	width: 95%;
+	height: 190px;
+}
+.video-box {
+	margin-top: -5%;
+}
+}

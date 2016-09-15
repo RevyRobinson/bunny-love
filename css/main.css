@@ -1,4 +1,4 @@
-* {
+p {
 	font-family: Prompt;
 }
 a {
@@ -28,7 +28,8 @@ header .logo {
 	font-size: 14px;
 	color: #fff;
 	text-decoration: none;
-	padding: 10px 30px;
+	padding-top: 10px;
+	padding-left: 5%;
 }
  .nav a {
  	text-transform: uppercase;
@@ -44,6 +45,11 @@ header .logo {
  	font-family: Prompt;
  	transition: all 0.8s ease;
  } 
+.dropdown-button {
+	display: none;
+ }
+
+
  /*END*/
 
 
@@ -105,7 +111,8 @@ header .logo {
 }
 .bunny-box-content h3 {
 	color: #FF6A6D;
-	padding-top: 20px;
+	font-family: Baloo Paaji;
+	padding-top: 30px;
 }
 .bunny-box-content p {
 	padding: 10%;
