@@ -139,11 +139,12 @@ header .logo {
 }
 .tile-content p {
 	padding: 3%;
+	text-align: justify;
 }
 .searchbar-buttons {
-	margin-top: 40px;
 }
 .searchbar {
+	margin-top: 40px;
 	background-color: #ECF7FD;
 	border-radius: 10px;
 	padding: 5%;
@@ -182,4 +183,34 @@ header .logo {
 	font-size: 20px;
 	margin: -5px;
 	transition: all 0.5s ease;
+}
+.tile2-content p {
+	padding: 2%;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+/*video*/
+.video-frame {
+	width: 95%;
+	height: 400px;
+}
+/*bottom banner*/
+.bottom-banner {
+	background-image: url(../img/bunny-head.png);
+	background-repeat: repeat-x;
+	background-size: 150px;
+}
+.bunny-banner {
+	padding: 40px;
+	border-bottom: 3px solid #F48081;
+}
+/*footer*/
+footer {
+	background-color: #037F99;
+}
+footer div{
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	padding:30px;
 }
