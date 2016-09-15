@@ -84,10 +84,14 @@ nav ul li {
 	Grid
 */
 
+.container-fluid-interior {
+	margin: 0 auto;
+	width: 90%;
 
+}
 .container-fluid {
 	margin: 0 auto;
-	width: 100%;
+	width: 80%;
 }
 
 .row:before,
